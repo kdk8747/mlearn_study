@@ -1,0 +1,3 @@
+dataset : num of classes, samples
+classifier : bayesian or SVM or decisionTree
+validator : 2-fold or k-fold
