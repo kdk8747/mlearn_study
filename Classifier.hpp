@@ -3,6 +3,7 @@
 
 class Classifier {
 public:
+	virtual void clear () = 0;
 	virtual void doTraining (const DataSet *ds) = 0;
 	virtual bool isCorrectlyClassify (const Data *d) const  = 0;
 	virtual void printInfo () const = 0;
